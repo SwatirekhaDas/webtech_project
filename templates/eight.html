@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="{% static 'css/c8.css' %}">
+</head>
+<body>
+    <form action="" class="animate__animated animate__bounce">
+        <fieldset>
+            <legend>login</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="#id">userid</label>
+                    </td>
+                    <td>
+                        <input type="password" placeholder="enter password" id="pwd">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="#pwd">country</label></td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">....select...</option>
+                            <option value="">india</option>
+                            <option value="">pakisthan</option>
+                            <option value="">bangladesh</option>
+                            <option value="">china</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="login"></td>
+                    <td><a href="">forget password</a></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

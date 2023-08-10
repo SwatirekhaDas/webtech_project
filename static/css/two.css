@@ -1,0 +1,21 @@
+[align]{
+    border: 2px solid red;
+}
+[align='centre']{
+    background-color: aqua;
+    color: lightcoral;
+}
+[align='right']{
+    color:aqua;
+    text-shadow: 0 0 5px green;
+}
+[align='left']{
+    color: bisque;
+    text-shadow: 0 0 15px chocolate;
+    font-style: oblique;
+}
+[title='table']{
+    border:2px solid olivedrab;
+    border-radius: 50px;
+    padding: 15px;
+}

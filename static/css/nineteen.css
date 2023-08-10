@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+div{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 30px;
+}
+img{
+    border-radius: 30px;
+    width:250px;
+    height:150px;
+}
+#child1{
+    background:linear-gradient(45deg,orange,blue);
+    color: azure;
+}
+#child2{
+    background: linear-gradient(45deg,purple,white);
+    color: azure;
+}
+#child3{
+    background: linear-gradient(45deg,hotpink,white);
+    color:brown;
+}

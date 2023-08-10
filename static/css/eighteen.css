@@ -1,0 +1,22 @@
+h1::first-letter{
+    background-color: brown;
+    color: blanchedalmond;
+}
+h1::cue-region{
+    color: rgb(14, 87, 87);
+}
+p::first-line{
+    color: rgb(64, 12, 160);
+}
+span:nth-child(1){
+    color: aquamarine;
+}
+span:nth-child(5){
+    color: aqua;
+}
+span:nth-child(even){
+    color: firebrick;
+}
+span:nth-child(odd){
+    color: mediumspringgreen;
+}

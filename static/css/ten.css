@@ -1,0 +1,14 @@
+#main{
+    border: 2px solid black;
+    margin:5px;
+    display: grid;
+    grid-template-columns:repeat(3,500px);
+    grid-template-rows:repeat(3,300px);
+    grid-gap:10px 20px;
+    
+
+}
+div{
+    border: 2px solid red;
+    height: fit-content;
+}

@@ -1,0 +1,12 @@
+div{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: ghostwhite;
+    padding: 20px;
+}

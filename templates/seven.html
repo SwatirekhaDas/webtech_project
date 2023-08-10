@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="{% static 'css/c7.css' %}">
+</head>
+<body>
+  <form action="">
+    <div>
+        <label for="#name">user name:</label>
+        <input type="text" placeholder="enter ur name" id="name">
+    </div>
+    <div>
+        <label for="#email">mail id:</label>
+        <input type="text" placeholder="abc@gmail.com" id="email">
+    </div>
+    <div>
+        <label for="#pwd">password:</label>
+        <input type="password" placeholder="enter password" id="pwd">
+    </div>
+    <div>
+        <label for="#gender">gender:</label>
+        <input type="radio" id="gender">male
+        <input type="radio" id="gender">female
+        <input type="radio" id="gender">others
+    </div>
+    <div>
+        <label for="#skills">courses:</label>
+        <input type="checkbox" id="skills">html
+        <input type="checkbox" id="skills">css
+        <input type="checkbox" id="skills">java
+        <input type="checkbox" id="skills">javascript
+        <input type="checkbox">python
+        <input type="checkbox">sql
+    </div>
+    <div>
+        <label for="#file">select file:</label>
+        <input type="file">
+    </div>
+    <div>
+        <label for="#dob">date of birth:</label>
+        <input type="date">
+    </div>
+    <div>
+        <label for="#dob1">date of birth:</label>
+        <input type="datetime">
+    </div>
+    <div>
+        <label for="#dob2">date of birth:</label>
+        <input type="datetime-local">
+    </div>
+    <div>
+        <label for="#number">mobile:</label>
+        <input type="number" placeholder="10-digit number">
+    </div>
+    <div>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <input type="submit"></input>
+        <input type="reset"></input>
+    </div>
+  </form>  
+</body>
+</html>

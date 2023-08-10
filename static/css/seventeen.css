@@ -1,0 +1,18 @@
+div{
+    width: 150px;
+    height: 100px;
+    border: 2px solid blueviolet;
+    margin: 5px;
+}
+#static:hover{
+    background: linear-gradient(45deg,red,blue);
+    position: static;
+    left: 200px;
+    right: 100px;
+}
+#relative:hover{
+    background: linear-gradient(45deg,mintcream,midnightblue);
+    position: relative;
+    left: 200px;
+    top: 100px;
+}

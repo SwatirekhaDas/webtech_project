@@ -1,0 +1,55 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/92/e3/51/92e351a40415f9f32e7aea75801aa59f.jpg)
+  }
+  input{
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+  }
+  button{
+    position: relative;
+    left: 280px;
+    background-color:brown;
+    color:white;
+    top: 280px;
+    padding: 15px;
+    width: 200px;
+  }
+  a{
+    text-decoration: none;
+    text-align: center;
+    padding-right: 30px;
+    width: 200px;
+  }
+  nav{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+  }
+  form{
+    position: relative;
+    left: 400px;
+  }
+  a{
+    color: white;
+  }
+  h1{
+    color: white;
+  }
+  h4{
+    color: white;
+  }
+  h3{
+    color: red;
+  }
+  span{
+    color: white;
+  }
+  .far{
+    color: white;
+  }
+  span:nth-child(3){
+  background-color: red;
+  color:white;
+  border-radius:30px ;
+  }

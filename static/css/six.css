@@ -1,0 +1,28 @@
+aside{
+    background: linear-gradient(45deg,teal,thistle);
+    float: right;
+    height: 50vh;
+    padding: 100px;
+}
+a{
+    padding: 15px;
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+a:hover{
+    border:2px solid whitesmoke;
+    border-radius: 30px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+}

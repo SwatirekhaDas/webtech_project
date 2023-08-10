@@ -1,0 +1,41 @@
+from django.shortcuts import render
+
+# Create your views here.
+def one(request):
+    return render(request,'one.html')
+def two(request):
+    return render(request,'two.html')
+def three(request):
+    return render(request,'three.html')
+def four(request):
+    return render(request,'four.html')
+def five(request):
+    return render(request,'five.html')
+def six(request):
+    return render(request,'six.html')
+def seven(request):
+    return render(request,'seven.html')
+def eight(request):
+    return render(request,'eight.html')
+def nine(request):
+    return render(request,'nine.html')
+def ten(request):
+    return render(request,'ten.html')
+def eleven(request):
+    return render(request,'eleven.html')
+def twelve(request):
+    return render(request,'twelve.html')
+def thirteen(request):
+    return render(request,'thirteen.html')
+def fourteen(request):
+    return render(request,'fourteen.html')
+def fifteen(request):
+    return render(request,'fifteen.html')
+def sixteen(request):
+    return render(request,'sixteen.html')
+def seventeen(request):
+    return render(request,'seventeen.html')
+def eighteen(request):
+    return render(request,'eighteen.html')
+def nineteen(request):
+    return render(request,'nineteen.html')

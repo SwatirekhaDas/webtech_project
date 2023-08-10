@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(360deg,red,green);
+    vertical-align: middle;
+}
+div{
+    border:2px solid black;
+    width: fit-content;
+    padding: 50px;
+    border-radius: 40px;
+    margin: top;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 30px;
+}
+button{
+    height: 100px;
+    width: 300px;
+    border-radius: 30px;
+}
+button:hover{
+    background: linear-gradient(135deg,orange,blue);
+    border-bottom-left-radius:80px;
+    border-bottom-right-radius: 80px;
+}

@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+h1{
+    background-color: brown;
+    color:azure;
+    border: 2px solid ghostwhite;
+    width: fitcontent;
+    padding:10px;
+    border-radius: 25px;
+}
+h2{
+    background-color: aquamarine;
+    color: bisque;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+}

@@ -1,0 +1,13 @@
+div{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
